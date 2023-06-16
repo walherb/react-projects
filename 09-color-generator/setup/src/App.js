@@ -14,8 +14,8 @@ function App() {
       let colors = new Values(color).all(10);
       setList(colors);
     } catch (error) {
-      setError(true);
-      console.log(error);
+      setError(false);
+      // console.log(error);
     }
   };
   return (
